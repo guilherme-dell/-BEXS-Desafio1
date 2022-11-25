@@ -1,4 +1,4 @@
-# [BEXS] Desafio Bexs - API DE ROLES
+# [BEXS] Desafio Bexs - API DE ROLÊS
 ## Objetivo do Desafio
 Fazer uma API simples utilizando os recursos apresentados no workshop.
 
@@ -7,7 +7,7 @@ Para rodar a aplicação primeiro execute o comando `docker compose build` após
 Agora sua API esta pronta para ser utilizada :)
 
 ### Utilizando a API
-Para casdastrar um Role acesse o endpoint `localhost:8081`
+Para casdastrar um Rolê acesse o endpoint `localhost:8081`
 
 	GET(localhost:8081/:roleID)  => PEGAR UM ROLE
 	GET(localhost:8081/roles) => VER TODOS OS ROLES
