@@ -1,0 +1,8 @@
+FROM golang:latest
+
+WORKDIR /app
+ADD . .
+EXPOSE 8070
+
+RUN go build
+ENTRYPOINT ./bexs-challenge

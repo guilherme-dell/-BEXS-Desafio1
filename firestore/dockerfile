@@ -1,0 +1,13 @@
+FROM node:19-alpine
+RUN apk update && apk add bash
+RUN apk add openjdk11
+
+RUN npm install -g firebase-tools
+
+WORKDIR /app
+COPY firebase.json .
+
+EXPOSE 8081
+EXPOSE 8082
+
+CMD ["sh", "-c", "firebase --project=bexs-challenge1 emulators:start --only firestore" ]
