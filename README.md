@@ -9,12 +9,12 @@ Agora sua API esta pronta para ser utilizada :)
 ### Utilizando a API
 Para casdastrar um Rolê acesse o endpoint `localhost:8081`
 
-	GET(localhost:8081/:roleID)  => PEGAR UM ROLE
-	GET(localhost:8081/roles) => VER TODOS OS ROLES
-	GET(localhost:8081/rolesHoje) => ROLES HOJE
-	POST(localhost:8081/) => MARCAR UM ROLE
-	PUT(localhost:8081/:roleID) => EDITAR UM ROLE CADASTRADO
-	DELETE(localhost:8081/:roleID) => APAGAR UM ROLE
+	GET    localhost:8081/roleID 		=> PEGAR UM ROLE
+	GET    localhost:8081/roles		=> VER TODOS OS ROLES
+	GET    localhost:8081/rolesHoje 	=> ROLES HOJE
+	POST   localhost:8081/			=> MARCAR UM ROLE
+	PUT    localhost:8081/roleID		=> EDITAR UM ROLE CADASTRADO
+	DELETE localhost:8081/roleID 		=> APAGAR UM ROLE
 
 ## JSON de cadastro
 	{
