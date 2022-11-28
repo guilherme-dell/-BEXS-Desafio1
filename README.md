@@ -3,7 +3,7 @@
 Fazer uma API simples utilizando os recursos apresentados no workshop.
 
 ## Uso
-Para rodar a aplicação execute o comando `docker-compose up`.
+Para rodar a aplicação execute o comando `docker compose up`.
 Agora sua API esta pronta para ser utilizada :)
 
 ### Utilizando a API
