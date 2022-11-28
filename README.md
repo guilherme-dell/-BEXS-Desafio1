@@ -3,11 +3,10 @@
 Fazer uma API simples utilizando os recursos apresentados no workshop.
 
 ## Uso
-Para rodar a aplicação primeiro execute o comando `docker compose build` após o build ocorrer execute o comando `docker-compose up`.
+Para rodar a aplicação execute o comando `docker-compose up`.
 Agora sua API esta pronta para ser utilizada :)
 
 ### Utilizando a API
-Para casdastrar um Rolê acesse o endpoint `localhost:8081`
 
 	GET    localhost:8081/roleID 		=> PEGAR UM ROLE
 	GET    localhost:8081/roles		=> VER TODOS OS ROLES
