@@ -10,5 +10,6 @@ services:
   firebase:
     build: ./firestore
     ports:
+      - 8081:8081
       - 8082:8082
       - 4400:4400

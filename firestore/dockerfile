@@ -9,5 +9,6 @@ COPY firebase.json .
 
 EXPOSE 8081
 EXPOSE 8082
+EXPOSE 4400
 
 CMD ["sh", "-c", "firebase --project=bexs-challenge1 emulators:start --only firestore" ]
