@@ -17,7 +17,7 @@ func StartFire() {
 	FireStore.ctx = context.Background()
 	var err error
 
-	FireStore.client, err = firestore.NewClient(FireStore.ctx, "bexs-challenge-1ea1e"); if err != nil {
+	FireStore.client, err = firestore.NewClient(FireStore.ctx, "bexs-challenge1"); if err != nil {
 		log.Println(err)
 	}
 }
