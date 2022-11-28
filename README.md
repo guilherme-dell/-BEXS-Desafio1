@@ -34,14 +34,4 @@ Agora sua API esta pronta para ser utilizada :)
     "tipo do role": "Aniversario"
 	}
 
-## Exemplo do JSON populado
-	{
-	"nome": "Aniversario da Amanda",
-    "local": "Fat Cow | R. Iaiá, 173 - Itaim Bibi, São Paulo - SP, 04542-060",
-    "cidade": "São Paulo",
-    "horario": "18h - 22h",
-    "dia": "01-12-2022",
-    "tipo do role": "Aniversario"
-	}
-
 <font color="red">O campo dia deve ser preenchiido no formato `dia-mes-ano` | `25-11-2022`</font>
