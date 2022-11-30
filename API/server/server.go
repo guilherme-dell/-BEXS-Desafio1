@@ -5,6 +5,7 @@ import (
 	"context"
 	"cloud.google.com/go/firestore"
 	"github.com/gin-gonic/gin"
+	"time"
 )
 
 type fireStoreConfig struct {
@@ -19,6 +20,7 @@ func Start() {
 	StartFireEnvp()
 	StartFire()
 
+	time.Local, _ = time.LoadLocation("America/Sao_Paulo")
 	server := gin.Default()
 	server.GET("/:roleID", pegarRole)
 	server.GET("/roles", todosRoles)
